@@ -156,7 +156,10 @@ class DBHelper {
   /**
    * Map marker for a restaurant.
    */
-   static mapMarkerForRestaurant(restaurant, map) {
+
+   // remove ??
+   /*
+    static mapMarkerForRestaurant(restaurant, map) {
     // https://leafletjs.com/reference-1.3.0.html#marker  
     const marker = new L.marker([restaurant.latlng.lat, restaurant.latlng.lng],
       {title: restaurant.name,
@@ -165,8 +168,11 @@ class DBHelper {
       })
       marker.addTo(newMap);
     return marker;
-  } 
-  /* static mapMarkerForRestaurant(restaurant, map) {
+  }
+    */
+
+    // NEW google maps
+    static mapMarkerForRestaurant(restaurant, map) {
     const marker = new google.maps.Marker({
       position: restaurant.latlng,
       title: restaurant.name,
@@ -175,7 +181,7 @@ class DBHelper {
       animation: google.maps.Animation.DROP}
     );
     return marker;
-  } */
+  }
 
 }
 
