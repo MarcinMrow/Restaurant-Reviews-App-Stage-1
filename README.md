@@ -17,13 +17,17 @@ c) it does not work offline.
 
 3. Created for [**Front-End Web Developer Nanodegree Program**](https://eu.udacity.com/).
 
+## Visit a website
+
+* [Click here](https://marcinmrow.github.io/Restaurant-Reviews-App-Stage-1/).
+
 ## Getting started
 
 1. Download/ clone the repository 
 ```
-$ git clone ...
+$ git clone https://github.com/MarcinMrow/Restaurant-Reviews-App-Stage-1.git
 ```
-2. Go to the directory: ...
+2. Go to the directory.
 
 3. Start up a simple HTTP server to serve up the site files on your local computer:
 
