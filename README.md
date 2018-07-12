@@ -4,18 +4,18 @@
 
 Implement the required features in three areas: responsive design, accessibility and offline use.
 
-1. There are several goals for the **Restaurant Reviews** projects:
-a) convert a static webpage to a mobile-ready web application,
-b) take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use,
-c) add a service worker to begin the process of creating a seamless offline experience for users,
-d) update the code to resolve issues while still maintaining the included functionality.
+### There are several goals for the **Restaurant Reviews** projects:
+1. Convert a static webpage to a mobile-ready web application.
+2. Take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use.
+3. Add a service worker to begin the process of creating a seamless offline experience for users.
+4. Update the code to resolve issues while still maintaining the included functionality.
 
-2. Specification of a starter code for a restaurant reviews website:
-a) it is barely usable on a desktop browser, much less a mobile device, 
-b) it does not include any standard accessibility features,
-c) it does not work offline.
+### Specification of a starter code for a restaurant reviews website:
+1. It is barely usable on a desktop browser, much less a mobile device, 
+2. It does not include any standard accessibility features,
+3. It does not work offline.
 
-3. Created for [**Front-End Web Developer Nanodegree Program**](https://eu.udacity.com/).
+### Created for [**Front-End Web Developer Nanodegree Program**](https://eu.udacity.com/).
 
 ## Visit a website
 
