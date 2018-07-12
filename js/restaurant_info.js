@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
  * Initialize leaflet map
  */
 
-//
 /*
 initMap = () => {
   fetchRestaurantFromURL((error, restaurant) => {
@@ -39,7 +38,7 @@ initMap = () => {
 }
 */  
 
-// NEW
+// google maps
 window.initMap = () => {
   fetchRestaurantFromURL((error, restaurant) => {
     if (error) { // Got an error!
@@ -94,7 +93,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  image.alt = restaurant.name;
+  image.alt = restaurant.name + 'restaurant';
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
@@ -198,3 +197,20 @@ getParameterByName = (name, url) => {
     return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
+
+/**
+ * Add the Service Worker
+ */
+
+if ('serviceWorker' in navigator) {
+  // Register a service worker hosted at the root of the site using a more restrictive scope.
+  navigator.serviceWorker.register('./service-worker.js')
+    .then(function(registration) {
+      console.log('Service worker registration succeeded:', registration);
+    }).catch(function(error) {
+      console.log('Service worker registration failed:', error);
+    });
+} else {
+  console.log('Service workers are not supported.');
+}
+

@@ -117,7 +117,6 @@ resetRestaurants = (restaurants) => {
   const ul = document.getElementById('restaurants-list');
   ul.innerHTML = '';
 
-  // NEW LEAVE or REMOVE
   /*
   // Remove all map markers
   if (self.markers) {
@@ -153,7 +152,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  image.alt = restaurant.name;
+  image.alt = restaurant.name + ' restaurant';
   li.append(image);
 
   const name = document.createElement('h1');
@@ -180,7 +179,6 @@ createRestaurantHTML = (restaurant) => {
  * Add markers for current restaurants to the map.
  */
 
-//
 /*
 addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
@@ -196,7 +194,6 @@ addMarkersToMap = (restaurants = self.restaurants) => {
 }
 */ 
 
-// NEW 
 addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
     // Add marker to the map
@@ -223,3 +220,4 @@ if ('serviceWorker' in navigator) {
 } else {
   console.log('Service workers are not supported.');
 }
+
