@@ -11,8 +11,8 @@ Implement the required features in three areas: responsive design, accessibility
 4. Update the code to resolve issues while still maintaining the included functionality.
 
 ### Specification of a starter code for a restaurant reviews website:
-1. It is barely usable on a desktop browser, much less a mobile device, 
-2. It does not include any standard accessibility features,
+1. It is barely usable on a desktop browser, much less a mobile device.
+2. It does not include any standard accessibility features.
 3. It does not work offline.
 
 ### Created for [**Front-End Web Developer Nanodegree Program**](https://eu.udacity.com/).
@@ -31,7 +31,7 @@ $ git clone https://github.com/MarcinMrow/Restaurant-Reviews-App-Stage-1.git
 
 3. Start up a simple HTTP server to serve up the site files on your local computer:
 
-a) In a terminal, check the version of Python you have: `python -V`. 
+In a terminal, check the version of Python you have: `python -V`. 
 
 If you have Python 2.x, spin up the server with `python -m http.server 8000` (or some other port, if port 8000 is already in use).
 
