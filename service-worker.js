@@ -22,7 +22,7 @@ self.addEventListener('install', function(event) {
         './img/7.jpg',
         './img/8.jpg',
         './img/9.jpg',
-        './img/10.jpg',
+        './img/10.jpg'
       ]);
     })
   );
@@ -44,10 +44,14 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-
   event.respondWith(
-    caches.match(event.request).then(function(response) {
-      return response || fetch(event.request);
+    caches.match(event.request, {
+      ignoreSearch: true
+    }).then(function(response) {
+      if (response) {
+        return response;
+      }
+      return fetch(event.request);
     })
   );
 });
