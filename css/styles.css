@@ -84,6 +84,18 @@ nav h1 a {
   text-transform: uppercase;
 }
 
+nav h2 {
+  margin: auto;
+}
+
+nav h2 a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
 #breadcrumb {
   padding: 10px 40px 16px;
   list-style: none;
