@@ -43,7 +43,7 @@ If you don't have Python installed, navigate to Python's [website](https://www.p
 
 ## Dependencies
 
-1. Feed Reader has been created as the Udacity Project and based on the **starters code**.
+1. Restaurant Reviews App has been created as the Udacity Project and based on the **starters code**.
 2. **ServiceWorker**: [An interface of the ServiceWorker API](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker).
 3. **GIT**: [Writing on GitHub](https://help.github.com/articles/basic-writing-and-formatting-syntax/#links).
 4. **Style Guidelines**: [Udacity Frontend Nanodegree Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html).
