@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/udacity/mws-restaurant-stage-1#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^4.0.0",
+    "minimatch": "^3.0.2"
+  },
+  "dependencies": {
+    "lodash.update": "^4.10.2"
   }
 }

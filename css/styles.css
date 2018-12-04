@@ -261,7 +261,7 @@ nav h2 a {
   list-style: none;
   background-color: #eee;
   margin: 0;
-  width: calc(50% - 80px);
+  width: calc(50% - 144px);
 }
 
 .inside #map {
